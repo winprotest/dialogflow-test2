@@ -25,7 +25,7 @@ app.post('/getmovie', (req, res) => {
 			: ''
 
 	const reqUrl = encodeURI(
-    		`http://www.omdbapi.com/?t=${movieToSearch}&apikey=${process.env.API_KEY}`
+    		`http://www.omdbapi.com/?t=${movieToSearch}&apikey=1f805ed3`
     	)
 	console.log(`${reqUrl} movieToSearch:${movieToSearch}`)
 	http.get(
