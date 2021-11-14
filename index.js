@@ -2,7 +2,7 @@ const express = require('express')
 // will use this later to send requests
 const http = require('http')
 // import env variables
-require('dotenv').config()
+//require('dotenv').config()
 
 const app = express()
 //const port = process.env.PORT || 3000
